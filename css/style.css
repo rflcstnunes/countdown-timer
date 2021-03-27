@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Kiwi Maru', serif;
+    margin: 0;
+}
+
+body {
+    background: url(../img/168614.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.newYear {
+    font-size: 4rem;
+    margin-top: -20rem;
+    margin-left: 10px;
+    word-spacing: 20px;
+}
+
+.countdown-container {
+    display: flex;
+}
+
+.big-text {
+    font-weight: normal;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown {
+    text-align: center;
+}
+
+.countdown span {
+    font-size: 1rem;
+}
+
+/*
+.days-c {}
+
+.hours-c {}
+
+.minutes-c {}
+
+.seconds-c {}
+*/
